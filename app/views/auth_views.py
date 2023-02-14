@@ -62,3 +62,4 @@ class LogoutView(APIView):
             return Response({"error": "Invalid token"}, status=status.HTTP_400_BAD_REQUEST)
 # register view
 # profile view
+# logout view
