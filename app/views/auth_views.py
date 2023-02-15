@@ -63,3 +63,4 @@ class LogoutView(APIView):
 # register view
 # profile view
 # logout view
+# logout fix
