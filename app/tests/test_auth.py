@@ -61,3 +61,4 @@ class ProfileViewTest(TestCase):
         self.client.force_authenticate(user=None)
         response = self.client.get(reverse("profile"))
         self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+# tests
