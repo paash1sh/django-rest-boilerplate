@@ -63,3 +63,4 @@ class ProfileViewTest(TestCase):
         self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
 # tests
 # test fix
+# unauth test
